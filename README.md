@@ -42,7 +42,10 @@ cd misjoins_from_Syntenic_genes
  
 perl  get_misjoins_from_SynGenes.pl -s SynOrths Output   -m Minimum fragment length
  
+##----------------------------------------------------------------------------------------------------
+
 Reference
+
 Cheng F, Wu J, Fang L and Wang X. Syntenic gene analysis between Brassica rapa and other Brassicaceae species. Front Plant Sci. 2012;3:198. doi:10.3389/fpls.2012.00198.
 
 Dudchenko O, Batra SS, Omer AD, Nyquist SK, Hoeger M, Durand NC, et al. De novo assembly of the Aedes aegypti genome using Hi-C yields chromosome-length scaffolds. Science. 2017;356 6333:92-5. doi:10.1126/science.aal3327.
