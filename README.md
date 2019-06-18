@@ -1,4 +1,4 @@
-# MisjoinDetect
+# MisjoinDetect (generated candidate misjoins from 3D-DNA)
 An automated misjoins correction pipeline (named MisjoinDetect) based on Hi-C data
 
 ##- run 3D-DNA
