@@ -1,6 +1,7 @@
 # MisjoinDetect 
-An automated misjoins correction pipeline (named MisjoinDetect) based on Hi-C data
 
+##--------------------------------------------------------------------------------------------------------
+An automated misjoins correction pipeline (named MisjoinDetect) based on Hi-C data
 cd MisjoinDetect
 
 ##-Step 1: Detect misjoin locus
