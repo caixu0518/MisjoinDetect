@@ -18,7 +18,7 @@ cut -f 1 corrected.breakpoints.list > misjoin.scfs.list
 bash ${pipelineWd}/Run_HiCPlotter.multi_threads.sh  ${matrix} ${intervals} ${sizes} "misjoin.scfs.list"
 
 
-##——------------------------------------------------------------------------------------------------------
+##-----------------------------------------------------------------------------------------------------
 
 Generate candidate misjoins from 3D-DNA output
 cd misjoins_from_3d_dna
