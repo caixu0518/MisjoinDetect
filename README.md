@@ -6,6 +6,7 @@ An automated misjoins correction pipeline (named MisjoinDetect) based on Hi-C da
 cd MisjoinDetect
 
 ##-Step 1: Detect misjoin locus
+
 perl  ${pipelineWd}/01.misjoin_detect.pl  -matrix ${matrix} -bed ${intervals} -Scfsizes ${sizes} -binsize ${binsize}
 
 ##-Step 2: Correct breakpoint information
