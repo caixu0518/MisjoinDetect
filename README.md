@@ -18,6 +18,7 @@ perl ${pipelineWd}/03.break_misjoin_scfs.pl  -fasta  ${fasta}  -breakpoint  corr
 ##-Step 4: Generate Hi-C map of each potential misjoin scaffold
 
 cut -f 1 corrected.breakpoints.list > misjoin.scfs.list
+
 bash ${pipelineWd}/Run_HiCPlotter.multi_threads.sh  ${matrix} ${intervals} ${sizes} "misjoin.scfs.list"
 
 ##-----------------------------------------------------------------------------------------------------
